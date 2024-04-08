@@ -1,4 +1,4 @@
-package br.com.voting.vote.models;
+package br.com.voting.vote.model;
 
 import java.util.UUID;
 

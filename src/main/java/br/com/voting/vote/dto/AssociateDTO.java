@@ -1,4 +1,4 @@
-package br.com.voting.vote.dtos;
+package br.com.voting.vote.dto;
 
 public class AssociateDTO {
 

@@ -1,7 +1,7 @@
 package br.com.voting.vote.services;
 
-import br.com.voting.vote.dtos.AssociateDTO;
-import br.com.voting.vote.models.Associate;
+import br.com.voting.vote.dto.AssociateDTO;
+import br.com.voting.vote.model.Associate;
 
 import java.util.List;
 

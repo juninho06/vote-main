@@ -1,4 +1,4 @@
-package br.com.voting.vote.models;
+package br.com.voting.vote.model;
 
 public class VoteSessionRequest {
     private int durationMinutes = 1; // Valor padrão de 1 minuto

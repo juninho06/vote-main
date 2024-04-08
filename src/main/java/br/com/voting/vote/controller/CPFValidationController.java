@@ -1,4 +1,4 @@
-package br.com.voting.vote.controllers;
+package br.com.voting.vote.controller;
 
 import br.com.voting.vote.external.CPFValidationClient;
 import org.springframework.beans.factory.annotation.Autowired;

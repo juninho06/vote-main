@@ -1,4 +1,4 @@
-package br.com.voting.vote.models;
+package br.com.voting.vote.model;
 
 import br.com.voting.vote.enums.StatusVotingSession;
 import com.fasterxml.jackson.annotation.JsonFormat;

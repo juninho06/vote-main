@@ -1,11 +1,12 @@
 package br.com.voting.vote.services.impl;
 
-import br.com.voting.vote.dtos.AssociateDTO;
+import br.com.voting.vote.dto.AssociateDTO;
 import br.com.voting.vote.exception.NotFoundException;
-import br.com.voting.vote.models.Associate;
-import br.com.voting.vote.repositories.AssociateRepository;
+import br.com.voting.vote.model.Associate;
+import br.com.voting.vote.repository.AssociateRepository;
 import br.com.voting.vote.services.AssociateService;
 import jakarta.transaction.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,6 +16,7 @@ public class AssociateServiceImpl implements AssociateService {
 
     private final AssociateRepository repository;
 
+    @Autowired
     public AssociateServiceImpl(AssociateRepository repository) {
         this.repository = repository;
     }

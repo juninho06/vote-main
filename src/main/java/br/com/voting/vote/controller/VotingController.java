@@ -1,4 +1,4 @@
-package br.com.voting.vote.controllers;
+package br.com.voting.vote.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,9 +9,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-import br.com.voting.vote.models.AgendaItem;
-import br.com.voting.vote.models.VoteSessionRequest;
-import br.com.voting.vote.models.VoteRequest;
+import br.com.voting.vote.model.AgendaItem;
+import br.com.voting.vote.model.VoteSessionRequest;
+import br.com.voting.vote.model.VoteRequest;
 
 @RestController
 @RequestMapping("/api")
